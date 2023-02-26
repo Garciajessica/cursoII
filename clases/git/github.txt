@@ -1,0 +1,17 @@
+Git 
+Git es un sistema de versiones gratuito y de codigo abierto.
+Con git podemos actualizar las versiones de nuestro codigo en cualquier momento de una manera sencilla. 
+
+GIT- ESTADOS:
+
+1) comienzo de trabajo:
+    working directory 
+    -> git add 
+2) Archivos listos
+    staging area 
+    -> git commit
+
+COMANDOS GIT 
+git init -> inicializa git 
+git add -> agrega el codigo a github 
+git commit ->  

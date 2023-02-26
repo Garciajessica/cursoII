@@ -1,0 +1,37 @@
+Modulo 
+
+Un modulo es un archivo que contiene items que pueden ser variables, funciones, clases
+Guarda iTEMS -> Variables, funciones, clases
+Un modulo unica y exclusivamente contiene variables, funciones, clases
+
+Paquete
+
+Un paquete es un archivo que contiene modulos -> conjunto de modulos
+
+paquetes redistribuible
+Es un paquete para compartir. Esto nos permite poder llamar al paquete sin importar su ubicacion
+
+en python podemos usar el empaquetado de codigo
+primero, debemos definir un archivo que se llama setup.python
+luego utilizamos setuptools para poder crear nuestro paquete
+ejemplo:
+ from setuptools import setup 
+
+ setup(
+    name="mi_paquete"
+    versio="1.0"
+    descripcion="una descripcion"
+    author=""
+
+    packages = ['basededatos']  -> Ahora le decimos que es lo que queremos empaquetar
+
+ )
+
+Una vez definido el setup vamos a ejecutar un comando python3 setup.py sdist -> es un parametro que nos permite generar un paquete redistribuible
+
+
+borrador:
+     '''def Estado_compra(self, aprobado, rechazado, pendiente):
+      self.aprobado= aprobado
+      self.rechazado= rechazado
+      self.pendiente= pendiente'''
